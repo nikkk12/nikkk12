@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    height:100vh;
+    background-color: FF7979;
+    background-image:url(photo.png)
+} 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first{
+    font-weight: 500px;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 26px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.sec{
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 1);
+    text-align: center;
+    margin-top: 14px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 327px;
+}
+.ten{
+    width: 319px;
+    height: 58px;
+    border: none;
+    background-color: hsla(248, 33%, 49%, 1);
+    border-radius: 16px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15)
+
+}
+.ten p{
+   font-weight: 490;
+   font-size: 15px;
+   color: hsla(0, 0%, 100%, 1);
+   width: 195px;
+   text-align: center;
+   margin-left: 67px;
+   font-family: Poppins;
+}
+.ten span{
+    font-weight: 390;
+    color: hsla(0, 0%, 100%, 1);
+    margin-left: 5px;
+    font-family: Poppins;
+    font-size: 15px;
+}
+form{
+    width: 330px;
+    height: 430px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border-radius: 19px;
+    margin-bottom: 48px;
+    gap: 15px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+input{
+    width: 259px;
+    height: 56px;
+    border-radius: 6px;
+    padding-left: 19px;
+    border: 1px solid #DEDEDE;
+    
+}
+form button{
+    width: 279px;
+    height: 56px;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    border: none;
+    color: #FFF;
+    font-weight: 590;
+    line-height: 26px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    
+}
+form p{
+    text-align: center;
+    font-weight: 480;
+    font-family: Poppins;
+    color: #BAB7D4;
+    width: 239px;
+    margin-top: -8px;
+    margin-bottom: 22px;
+    font-size: 10px;
+    line-height: 19px;
+    
+}
+form p span{
+    color: #FF7979;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; 
+}
+
+
+
+    
